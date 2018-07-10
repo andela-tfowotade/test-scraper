@@ -12,6 +12,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'rspec'
+gem 'nokogiri'
 
 
 gem 'bootsnap', '>= 1.1.0', require: false
@@ -30,8 +31,6 @@ group :development do
 end
 
 group :test do
-  gem 'selenium-webdriver'
-  gem 'chromedriver-helper'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
